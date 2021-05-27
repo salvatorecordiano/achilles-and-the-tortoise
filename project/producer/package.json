@@ -1,0 +1,7 @@
+{
+  "name": "producer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Salvatore Cordiano <salvatore@cordiano.it>",
+  "license": "MIT"
+}

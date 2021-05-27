@@ -1,0 +1,13 @@
+{
+	"name": "Zeno Paradox",
+	"dockerComposeFile": "docker-compose.yml",
+	"forwardPorts": [ 5672, 15672 ],
+	"service": "node",
+	"workspaceFolder": "/project",
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash",
+	},
+	"extensions": [],
+	"remoteUser": "node",
+	"shutdownAction": "stopCompose"
+}

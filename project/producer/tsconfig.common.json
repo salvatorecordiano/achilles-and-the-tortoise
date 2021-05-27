@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "downlevelIteration": true,
+        "lib": ["ESNext", "ESNext.AsyncIterable"],
+        "target": "ES2017",
+        "module": "CommonJS",
+        "strict": true,
+        "outDir": "dist",
+        "noErrorTruncation": true,
+        "noEmit": true,
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "declaration": true,
+        "noUnusedParameters": true,
+        "noUnusedLocals": true,
+        "importsNotUsedAsValues": "error",
+        "noUncheckedIndexedAccess": true,
+        "pretty": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true
+    }
+}
