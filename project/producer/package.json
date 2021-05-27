@@ -16,6 +16,10 @@
   "scripts": {
     "build": "tsc --p tsconfig.build.json",
     "dev": "ts-node src/index.ts",
-    "validate-schemas": "./scripts/validate-json-schemas.sh"
+    "setup-queue": "ts-node src/setupQueue.ts",
+    "produce": "ts-node src/produce.ts"
+  },
+  "dependencies": {
+    "amqp-ts": "^1.8.0"
   }
 }
