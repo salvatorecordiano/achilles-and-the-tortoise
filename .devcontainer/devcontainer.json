@@ -7,7 +7,9 @@
 	"settings": {
 		"terminal.integrated.shell.linux": "/bin/bash",
 	},
-	"extensions": [],
+	"extensions": [
+		"esbenp.prettier-vscode"
+	],
 	"remoteUser": "node",
 	"shutdownAction": "stopCompose"
 }
