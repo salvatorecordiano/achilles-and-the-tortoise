@@ -6,7 +6,7 @@
 - [Docker](https://www.docker.com/get-started) must be pre-installed on the machine.
 - The repository `devcontainer` setup requires `docker-compose` to be installed on the machine.
 
-## How to configure Visual Studio Code to run the demos
+## How to configure Visual Studio Code to run the code
 
 Once configuration is completed VS Code will show a new `Ports` tab, in the bottom-docked terminal area. The `Ports` tab will list all the ports exposed by the remote containers.
 
