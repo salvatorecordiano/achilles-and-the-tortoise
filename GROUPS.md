@@ -2,20 +2,20 @@
 
 ## Group 1
 
-Andrea
-Pasqualino
+- Andrea
+- Pasqualino
 
 ## Group 2
 
-Mario
-Emanuele
+- Mario
+- Emanuele
 
 ## Group 3
 
-Ilario
-Gianfranco
+- Ilario
+- Gianfranco
 
 ## Group 4
 
-Davide
-Daniele
+- Davide
+- Daniele
