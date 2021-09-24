@@ -34,7 +34,7 @@ The default RabbitMQ credentials are:
 ## Links
 
 - [Groups](GROUPS.md)
-- [References](GROUPS.md)
+- [References](REFERENCES.md)
 
 ## Workshops
 
