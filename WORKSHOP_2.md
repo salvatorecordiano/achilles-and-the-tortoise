@@ -13,3 +13,10 @@ Consumer and producer will be placed in the folder of the same name.
 Your producer will produce messages in a infinity loop.
 
 Your consumer will consume messages continuosly.
+
+## Key concepts
+
+- [Ack](https://www.rabbitmq.com/amqp-0-9-1-reference.html#basic.ack)
+- [Nack](https://www.rabbitmq.com/amqp-0-9-1-reference.html#basic.nack)
+- [Reject](https://www.rabbitmq.com/amqp-0-9-1-reference.html#basic.reject)
+- [Delivery Acknowledgement Timeout](https://www.rabbitmq.com/consumers.html#acknowledgement-timeout)
