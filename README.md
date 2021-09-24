@@ -30,3 +30,13 @@ The default RabbitMQ credentials are:
 ## Repository structure
 
 ...
+
+## Links
+
+- [Groups](GROUPS.md)
+- [References](GROUPS.md)
+
+## Workshops
+
+- [Workshop 1](WORKSHOP_1.md)
+- [Workshop 2](WORKSHOP_2.md)
