@@ -20,3 +20,4 @@ Your consumer will consume messages continuosly.
 - [Nack](https://www.rabbitmq.com/amqp-0-9-1-reference.html#basic.nack)
 - [Reject](https://www.rabbitmq.com/amqp-0-9-1-reference.html#basic.reject)
 - [Delivery Acknowledgement Timeout](https://www.rabbitmq.com/consumers.html#acknowledgement-timeout)
+- [Dead Letter Exchanges](https://www.rabbitmq.com/dlx.html)
