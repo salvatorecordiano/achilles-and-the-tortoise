@@ -5,10 +5,12 @@
 	"service": "node",
 	"workspaceFolder": "/project",
 	"settings": {
-		"terminal.integrated.shell.linux": "/bin/bash",
+		"terminal.integrated.defaultProfile.linux": "bash",
 	},
 	"extensions": [
-		"esbenp.prettier-vscode"
+		"dbaeumer.vscode-eslint", 
+		"esbenp.prettier-vscode", 
+		"k--kato.intellij-idea-keybindings"
 	],
 	"remoteUser": "node",
 	"shutdownAction": "stopCompose"
