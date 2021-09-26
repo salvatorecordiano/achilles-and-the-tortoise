@@ -18,7 +18,7 @@
     "test": "ts-node src/test.ts",
     "workshop1": "ts-node src/workshop1.ts",
     "workshop2": "ts-node src/workshop2.ts",
-    "workshop3_1": "ts-node src/workshop3_1.ts"
+    "workshop3_1_2": "ts-node src/workshop3_1_2.ts"
   },
   "dependencies": {
     "amqp-ts": "^1.8.0"

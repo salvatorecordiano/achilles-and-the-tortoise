@@ -20,4 +20,4 @@
     "dependencies": {
       "amqp-ts": "^1.8.0"
     }
-  }
+}
