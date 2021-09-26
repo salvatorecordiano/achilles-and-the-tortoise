@@ -18,6 +18,6 @@
 
 ## Key concepts
 
-- [Guidelines for Domain Modeling exercise] (https://github.com/swlaschin/DmmfWorkshop/blob/master/src/A-DDD/01-GuidelinesForDomainModelingExercise.txt)
+- [Guidelines for Domain Modeling exercise](https://github.com/swlaschin/DmmfWorkshop/blob/master/src/A-DDD/01-GuidelinesForDomainModelingExercise.txt)
 - [Algebraic Data Types](https://github.com/gcanti/functional-programming#algebraic-data-types)
 - [Functional design: Algebraic Data Types](https://dev.to/gcanti/functional-design-algebraic-data-types-36kf)
