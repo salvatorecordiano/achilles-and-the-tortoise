@@ -5,10 +5,9 @@
 	"service": "node",
 	"workspaceFolder": "/project",
 	"settings": {
-		"terminal.integrated.defaultProfile.linux": "bash",
+		"terminal.integrated.defaultProfile.linux": "bash"
 	},
 	"extensions": [
-		"dbaeumer.vscode-eslint", 
 		"esbenp.prettier-vscode", 
 		"k--kato.intellij-idea-keybindings"
 	],
