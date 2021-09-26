@@ -4,3 +4,7 @@ export const getAmqConnectionString = (): string => {
         `${process.env.RABBITMQ_HOSTNAME}:` + 
         `${process.env.RABBITMQ_PORT}`
 }
+
+export function sleep (time: number) {
+        return new Promise((resolve) => setTimeout(resolve, time));
+}

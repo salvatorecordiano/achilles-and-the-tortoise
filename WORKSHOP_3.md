@@ -1,0 +1,122 @@
+# Workshop 3
+
+First of all discuss about the meaning of Algebraic Data Types.
+
+## Guidelines for Domain Modeling Exercise
+
+In this part of the workshop, each team will pick a domain and then collaborate on building a shared mental model and documenting the domain.
+
+- One person takes the role of domain expert
+- One person takes the role of main interviewer (although everyone can ask questions)
+- One person documents the domain (although everyone can contribute)
+
+The interviewer(s) will ask the domain expert questions in order to understand the domain and become domain experts themselves.
+
+The goal is to:
+- Document the domain using AND and OR, etc
+- And at the same time, develop a shared mental model and shared language among the group
+
+## How to interview
+
+### Listen to and learn from the experts
+
+- Don't impose your own ideas
+- Avoid yes/no questions
+- If you hear "it depends", drill deeper
+
+### Disagreement between experts is OK.
+
+- The design process is about getting everyone on the same page!
+
+## How to model a workflow
+
+### What is needed for the workflow input?
+
+- What data is from the triggering event itself
+- What data is from the current state of the system? E.g. loaded from storage?
+- What other data is needed?
+
+### What is the output of the workflow?
+
+- What events are needed for broadcast to downstream systems?
+- What data should be saved to storage?
+
+### How does the state of the system change?
+
+- Does data need to be loaded, changed, and resaved?
+
+### What are the side effects? (Things that must be done but are internal to the domain)
+
+## "Place order" Example
+
+```
+Workflow: "Place order"
+triggered by:
+  OrderReceived event
+input:
+  Order (from the triggering event)
+  ProductCatalog  (to lookup prices)
+output:
+  OrderPlaced event (to be sent to downstream systems)
+  The final PlacedOrder (to store in the database)
+  An OrderAcknowledgment (to be sent to the customer)
+```
+
+Document the data with "AND"
+
+```
+data Order =
+  CustomerInfo
+  AND ShippingAddress
+  AND BillingAddress
+  AND list of OrderLines
+  AND AmountToBill
+```
+
+```
+data OrderLine =
+  Product
+  AND OrderQuantity
+  AND Price
+```
+
+```
+data CustomerInfo = CustomerName AND ContactInfo
+data CustomerName = FirstName AND LastName
+```
+
+```
+data BillingAddress = ??? // don't know yet
+```
+
+Document choices with OR
+
+```
+data OrderQuantity =
+  UnitQuantity
+  OR KilogramQuantity
+```
+
+```
+data ContactInfo =
+  EmailAddress
+  OR PhoneNumber
+```
+
+Document simple/constrained types
+
+```
+data UnitQuantity = integer between 1 and ?
+data KilogramQuantity = decimal between ? and ?
+```
+
+```
+data EmailAddress = non empty string containing an @ symbol
+data PhoneNumber = non empty string containing only digits, hyphens, and spaces
+```
+
+## Key concepts
+
+- [Guidelines for Domain Modeling exercise] (https://github.com/swlaschin/DmmfWorkshop/blob/master/src/A-DDD/01-GuidelinesForDomainModelingExercise.txt)
+- [Algebraic Data Types](https://github.com/gcanti/functional-programming#algebraic-data-types)
+- [Functional design: Algebraic Data Types](https://dev.to/gcanti/functional-design-algebraic-data-types-36kf)
