@@ -1,5 +1,5 @@
 # Workshop 1
 
-In this workshop we will introduce RabbitMQ and we will get our hands on the `setupQueue.ts` inside `producer` folder.
+In this workshop we will introduce RabbitMQ and we will get our hands on the `workshop1.ts` inside `producer` folder.
 
-Before execute the `setupQueue.ts` script with `yarn setup-queue`, install all dependencies running `yarn`.
+Before execute the `workshop1.ts` script with `yarn workshop1`, install all dependencies running `yarn`.

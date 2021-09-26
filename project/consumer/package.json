@@ -1,0 +1,23 @@
+{
+    "name": "producer",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Salvatore Cordiano <salvatore@cordiano.it>",
+    "license": "MIT",
+    "devDependencies": {
+      "@types/node": "^15.6.1",
+      "prettier": "^2.3.0",
+      "ts-node": "^10.0.0",
+      "typescript": "^4.3.2"
+    },
+    "engines": {
+      "node": ">=14.0.0"
+    },
+    "scripts": {
+      "build": "tsc --p tsconfig.build.json",
+      "workshop2": "ts-node src/workshop2.ts"
+    },
+    "dependencies": {
+      "amqp-ts": "^1.8.0"
+    }
+  }

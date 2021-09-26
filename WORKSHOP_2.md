@@ -4,7 +4,7 @@
 
 In this workshop we will create a simple producer and consumer.
 
-They will use the queue `queue-test` to produce and consume messages.
+They will use the queue `queue-test0` to produce and consume messages.
 
 Consumer and producer will be placed in the folder of the same name.
 
