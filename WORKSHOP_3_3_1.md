@@ -59,7 +59,7 @@ output:
   An OrderAcknowledgment (to be sent to the customer)
 ```
 
-Document the data with "AND"
+## Document the data with "AND"
 
 ```
 data Order =
@@ -86,7 +86,7 @@ data CustomerName = FirstName AND LastName
 data BillingAddress = ??? // don't know yet
 ```
 
-Document choices with OR
+## Document choices with OR
 
 ```
 data OrderQuantity =
@@ -100,7 +100,7 @@ data ContactInfo =
   OR PhoneNumber
 ```
 
-Document simple/constrained types
+## Document simple/constrained types
 
 ```
 data UnitQuantity = integer between 1 and ?
