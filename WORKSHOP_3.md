@@ -16,10 +16,10 @@
 
 ### 3.3.2 Sample
 
+[Read](WORKSHOP_3_3_2.md)
+
 ### 3.3.3 "Tic Tac Toe" Exercise
 
-[Read](WORKSHOP_3_3_1.md)
-[Read](WORKSHOP_3_3_2.md)
 [Read](WORKSHOP_3_3_3.md)
 
 ## Key concepts
