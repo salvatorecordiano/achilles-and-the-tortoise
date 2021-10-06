@@ -21,3 +21,6 @@
 - [Guidelines for Domain Modeling exercise](https://github.com/swlaschin/DmmfWorkshop/blob/master/src/A-DDD/01-GuidelinesForDomainModelingExercise.txt)
 - [Algebraic Data Types](https://github.com/gcanti/functional-programming#algebraic-data-types)
 - [Functional design: Algebraic Data Types](https://dev.to/gcanti/functional-design-algebraic-data-types-36kf)
+- Introduction to DDD - Lesson Day 1 - Part 1 from 20:39 to the end
+- Modeling - Lesson Day 1 - Part 2 from 00:00 to 50:08
+- ADT - Lesson Day 2 - Part 2 from 21:25 to 23:43
