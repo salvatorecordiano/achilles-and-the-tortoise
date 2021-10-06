@@ -10,11 +10,17 @@
 
 ## 3.3 Domain Modeling Exercise
 
-### 3.3.1 Guidelines
+### 3.3.1 Guidelines for Domain Modeling Exercise, How to model a workflow, "Place order" Example
+
+[Read](WORKSHOP_3_3_1.md)
 
 ### 3.3.2 Sample
 
-### 3.3.3 Tic Tac Toe exercise
+### 3.3.3 "Tic Tac Toe" Exercise
+
+[Read](WORKSHOP_3_3_1.md)
+[Read](WORKSHOP_3_3_2.md)
+[Read](WORKSHOP_3_3_3.md)
 
 ## Key concepts
 
