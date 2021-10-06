@@ -10,7 +10,7 @@
 
 ## 3.3 Domain Modeling Exercise
 
-### 3.3.1 Guidelines for Domain Modeling Exercise, How to model a workflow, "Place order" Example
+### 3.3.1 Guidelines for Domain Modeling Exercise and How to model a workflow
 
 [Read](WORKSHOP_3_3_1.md)
 
