@@ -1,4 +1,4 @@
-# Tic Tac Toe exercise
+# "Tic Tac Toe" Exercise
 
 ```
 Workflow StartAGame/Reset =
