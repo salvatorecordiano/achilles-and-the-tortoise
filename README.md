@@ -40,3 +40,4 @@ The default RabbitMQ credentials are:
 
 - [Workshop 1](WORKSHOP_1.md)
 - [Workshop 2](WORKSHOP_2.md)
+- [Workshop 3](WORKSHOP_3.md)
