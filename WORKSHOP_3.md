@@ -22,6 +22,10 @@
 
 [Read](WORKSHOP_3_3_3.md)
 
+### 3.3.4 "Achilles and the Tortoise" Exercise
+
+[Read](WORKSHOP_3_3_4.md)
+
 ## Key concepts
 
 - [Guidelines for Domain Modeling exercise](https://github.com/swlaschin/DmmfWorkshop/blob/master/src/A-DDD/01-GuidelinesForDomainModelingExercise.txt)
